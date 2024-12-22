@@ -1,10 +1,10 @@
 function validateForm() {
-    const username = document.getElementById('username').value;
+    const username = document.getElementById('emai').value;
     const password = document.getElementById('password').value;
     const errorMsg = document.getElementById('error-msg');
 
     if (username.length < 3) {
-        errorMsg.innerHTML = 'Username must be at least 3 characters long.';
+        errorMsg.innerHTML = 'Email must be at least 3 characters long.';
         return false;
     }
 
