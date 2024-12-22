@@ -1,8 +1,7 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-
 
 body {
     font-family: Arial, sans-serif;
@@ -10,33 +9,56 @@ body {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-
     height: 100vh;
     margin: 0;
 }
 
-#title{
+#title {
     font-size: 2.5vw;
     text-align: center;
     background-image: linear-gradient(red, green);
     color: transparent;
     background-clip: text;
+    margin-bottom: 20px;
 }
 
-.login-container {
-    width: auto;
-    background-color: rgba(255,255,255,0.9);
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     min-width: 350px;
     text-align: center;
+    width: 400px;
 }
 
-h2 {
+.tabs {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 20px;
+}
+
+.tab-button {
+    flex: 1;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+}
+
+.tab-button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
 }
 
 .input-group {
@@ -50,8 +72,7 @@ label {
     font-weight: bold;
 }
 
-input[type="text"],
-input[type="password"] {
+input[type="text"], input[type="password"] {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -73,7 +94,7 @@ button:hover {
     background-color: #45a049;
 }
 
-#error-msg {
+#error-msg, #reg-error-msg, #login-error-msg {
     color: red;
     margin-top: 10px;
 }
