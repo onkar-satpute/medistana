@@ -25,7 +25,7 @@ function validateRegisterForm() {
     }
 
     errorMsg.innerHTML = '';
-    alert('Registration successful!');
+    alert('Registration successful! Please Login');
     return false;
 }
 
@@ -46,5 +46,6 @@ function validateLoginForm() {
 
     errorMsg.innerHTML = '';
     alert('Login successful!');
+    window.location.assign("home.html"); 
     return false;
 }
