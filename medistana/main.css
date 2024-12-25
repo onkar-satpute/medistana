@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand{
+    margin: 0;
+    height: 100%;          /* Take full height of the navbar */
+    max-height: 50px;      /* Prevent the image from being too large */
+    width: auto;           /* Maintain aspect ratio */
+    object-fit: contain;   /* Ensure the entire image fits */
+  }
+  .nav-link {
+    color: white !important;
+  }
+
+  #slidingImg{
+    /* padding-top: 65px; */
+    object-fit: cover;
+  }
+
+  #fortest{
+    
+    /* height: clamp(300px, 70vh, 90%); */
+    width: 90vw;
+    border: 2px solid black;
+    /* background-color: red; */
+    padding-top: 65px;
+    margin: 0px 5vw;
+      
+  }
+
+
+
+
+  
+
+  
