@@ -71,19 +71,19 @@
   }
 
   #imageforyoga{
-    background-image:url(/images/yogabg.jpg);
+    background-image:url(images/yogabg.jpg);
     background-size: cover;
     background-position: center;
   }
 
   #imageformeditation{
-    background-image:url(/images/meditationbg.jpg);
+    background-image:url(images/meditationbg.jpg);
     background-size: cover;
     background-position: center;
   }
 
   #imageforzumba{
-    background-image:url(/images/zumbabg.jpg);
+    background-image:url(images/zumbabg.jpg);
     background-size: cover;
     background-position: center;
   }
