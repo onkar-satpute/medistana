@@ -5,7 +5,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url("yoga.jpg");
+    background-image: url("/yoga.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
