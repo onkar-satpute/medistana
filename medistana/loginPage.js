@@ -45,6 +45,10 @@ function validateRegisterForm() {
 }
 
 function validateLoginForm() {
+
+    const predefinedEmail = "main@medistana.com";
+    const predefinedPassword = "MA@123";
+
     const email = document.getElementById('loginEmail').value;
     const password = document.getElementById('loginPassword').value;
     const errorMsg = document.getElementById('login-error-msg');
@@ -59,7 +63,13 @@ function validateLoginForm() {
         return false;
     }
 
+    if (email !== predefinedEmail || password !== predefinedPassword) {
+        errorMsg.innerHTML = 'Invalid email or password.';
+        return false;
+    }
+    
     errorMsg.innerHTML = '';
     alert('Login successful!');
+    window.location.href = 'main.html';
     return false;
 }
