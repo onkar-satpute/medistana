@@ -40,7 +40,7 @@
     font-weight: bold;
   }
 
-  .forclasses{
+  #forclasses{
     
     width: 90vw;
     border: 3px solid black;
@@ -81,19 +81,19 @@
   }
 
   #imageforyoga{
-    background-image:url(images/yogabg.jpg);
+    background-image:url(/images/yogabg.jpg);
     background-size: cover;
     background-position: center;
   }
 
   #imageformeditation{
-    background-image:url(images/meditationbg.jpg);
+    background-image:url(/images/meditationbg.jpg);
     background-size: cover;
     background-position: center;
   }
 
   #imageforzumba{
-    background-image:url(images/zumbabg.jpg);
+    background-image:url(/images/zumbabg.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -138,14 +138,16 @@
   }
 
   .subblog h2{
+    text-align: center;
     margin: 20px 50px 30px;
   }
 
   .subblog p{
-    line-height: 3.5rem;
+    line-height: 2rem;
     overflow-wrap: break-word;
-    padding: 5px;
-    font-size: 1.5rem;
+    padding: 20px 5px;
+    font-size: 1.5vw;
+    text-align: center;
   }
 
   #rahul{
@@ -164,6 +166,80 @@
     cursor: pointer;
   }
 
+  /* start about us code */
+
+  #aboutus {
+    margin: 20px auto;
+    width: 90VW;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+ .developercard {
+  height: 300px;
+  width: 350px;
+  margin: 20px 20px;
+  border: 4px solid black;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px black;
+  transition: transform 0.5s ease-in;
+ }
+ 
+ .developercard:hover{
+    box-shadow: 0 8px 16px black;
+    transform: rotate(05deg);
+    cursor: pointer;
+
+ }
+
+ #showcolor {
+  height: 40%;
+  width: 100%;
+  border-bottom: 2px solid black;
+  border-radius: 17px;
+  background-image: url(/images/codebg.jpg);
+  background-size: cover;
+  background-position: center;
+ }
+
+ #description {
+  height: 60%;
+  width: 100%;
+  text-align: center;
+ }
+
+ #description h4{
+  margin-top: 25px;
+  
+ } 
+
+ #description h6{
+  padding-bottom: 10px;
+  border-bottom: 4px solid red;
+  border-bottom-right-radius: 90%;
+  border-bottom-left-radius: 90%;
+ }
+
+
+ #profilepic {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: relative;
+  bottom: 280px;
+  left: 35%;
+  background-image: url(/images/profile.jpg);
+  background-size: cover;
+  background-position: center;
+ }
+
+
+
+
+  
   
 
 
