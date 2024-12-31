@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-size: 100%;
 }
 
 .navbar-brand{
@@ -29,9 +30,18 @@
     margin: 0px auto;
       
   }
+  
+  /* class card section css code start */
+  #titleclass{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-family: cursive;
+    font-weight: bold;
+  }
 
   .forclasses{
-    height: 70vh;
+    
     width: 90vw;
     border: 3px solid black;
     margin: 20px auto;
@@ -43,7 +53,7 @@
   }
 
   .subclasses{
-    height: 70%;
+    height: 400px;
     width: 300px;
     border: 2px solid black;
     margin: 20px auto;
@@ -96,6 +106,66 @@
     color: white;
     font-weight: 500;
   }
+
+  /* blog section css code start */
+  #blogsection{
+    margin: 10px auto;
+    
+    width: 93vw;
+    border: 3px solid black;
+    border-radius: 25% 10%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .subblog{
+    height: 600px;
+    width: 46%;
+    border: 2px solid black;
+    border-radius: 10% / 50%;
+    text-align: center;
+    
+    
+  }
+
+  #blogimg{
+    background-image: url(images/blogimg.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .subblog h2{
+    margin: 20px 50px 30px;
+  }
+
+  .subblog p{
+    line-height: 3.5rem;
+    overflow-wrap: break-word;
+    padding: 5px;
+    font-size: 1.5rem;
+  }
+
+  #rahul{
+    padding-right: 20px;
+    overflow-wrap: break-word;
+    text-align: right;
+    
+  }
+
+  .subblog button{
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+
 
   
 
