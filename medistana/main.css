@@ -32,7 +32,7 @@
   }
   
   /* class card section css code start */
-  #titleclass{
+  .titleclass{
     text-align: center;
     padding: 10px;
     margin: 10px;
@@ -240,8 +240,11 @@
 /* contact us form start from here */
 #contact-container {
   font-family: 'Outfit';
-  background: linear-gradient(#ffdad5, #fff7f9);
+  background: linear-gradient(#C2FFC7, #9EDF9C);
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-left {
@@ -253,18 +256,19 @@
 
 .contact-left-title h2 {
   font-weight: 600;
-  color: #a363aa;
+  color: #526E48;
   font-size: 40px;
   margin-bottom: 5px;
 }
 
 .contact-left-title hr {
   border: none;
-  width: 120px;
+  width: 220px;
   height: 5px;
-  background-color: #a363aa;
+  background-color: #62825D;
   border-radius: 10px;
   margin-bottom: 20px;
+  margin-left: 5px;
 }
 
 .contact-inputs {
@@ -279,7 +283,7 @@
 }
 
 .contact-inputs:focus {
-  border: 2px solid #ff994f;
+  border: 2px solid #526E48;
 }
 
 .contact-inputs::placeholder {
@@ -298,7 +302,7 @@
   color: #fff;
   border: none;
   border-radius: 50px;
-  background: linear-gradient(270deg, #ff944f, #fa6d86);
+  background: linear-gradient(270deg, #62825D, #526E48);
   cursor: pointer;
 }
   
